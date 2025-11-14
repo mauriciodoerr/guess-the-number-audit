@@ -1,12 +1,5 @@
 # Security Audit Report: [GuessTheNumber](https://capturetheether.com/challenges/lotteries/guess-the-number)
 
-**Contract:** GuessTheNumber.sol
-**Solidity Version:** ^0.8.30
-**Audit Date:** 2025-11-13
-**Auditor:** Claude Code Security Analysis
-
----
-
 ## Executive Summary
 
 The GuessTheNumberChallenge contract implements a simple guessing game where users can win 2 ether by correctly guessing a number. The audit identified **3 CRITICAL** and **2 MEDIUM** severity vulnerabilities that make the contract fundamentally insecure for production use.
