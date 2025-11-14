@@ -1,0 +1,60 @@
+# Compiler files
+cache/
+out/
+
+# Ignores development broadcast logs
+!/broadcast
+/broadcast/*/31337/
+/broadcast/**/dry-run/
+
+# Dotenv file
+.env
+.env.local
+.env.*.local
+
+# Node modules (if using npm/yarn)
+node_modules/
+
+# IDEs
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Foundry/Forge
+artifacts/
+typechain/
+typechain-types/
+
+# Coverage
+coverage/
+coverage.json
+*.lcov
+
+# Gas reports
+.gas-snapshot
+gasReporterOutput.json
+
+# Hardhat (if mixed with Foundry)
+artifacts-hardhat/
+cache-hardhat/
+
+# Certora
+.certora*/
+certora*/
+.last_confs/
+
+# Python (for scripts)
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+.venv/
+*.egg-info/
+
+# Misc
+*.log
+*.tmp
+.temp/
