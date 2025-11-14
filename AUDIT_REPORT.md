@@ -1,12 +1,12 @@
 # Security Audit Report: [GuessTheNumber](https://capturetheether.com/challenges/lotteries/guess-the-number)
 
-## Executive Summary
+## Summary
 
 The GuessTheNumberChallenge contract implements a simple guessing game where users can win 2 ether by correctly guessing a number. The audit identified **3 CRITICAL** and **2 MEDIUM** severity vulnerabilities that make the contract fundamentally insecure for production use.
 
 **Risk Level:** 🔴 **CRITICAL** - Contract should NOT be deployed as-is.
 
-## Detailed Findings
+## Findings
 
 ### 🔴 CRITICAL-01: Answer Stored in Public State Variable
 
@@ -177,7 +177,7 @@ event ContractDeployed(uint256 initialBalance);
 
 ---
 
-### 🟢 LOW-01: Game Design Flaw
+### 🟢 LOW-01: Game Design Issue
 
 **Description:**
 Using uint8 means only 256 possible values (0-255). This is trivially brute-forceable even without storage inspection.
