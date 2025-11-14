@@ -9,6 +9,8 @@ GuessTheNumberV2 fixes all security vulnerabilities from the audit while maintai
 - No complex reveals or waiting periods
 - Uses OpenZeppelin's `Address.sendValue()` for safer ether transfers
 
+block.timestamp has been used as this is academic and just to control re-attempt to guess. Another idea would be to use blocks instead of timestamp.
+
 ## Prerequisites
 
 - Foundry installed ([getfoundry.sh](https://getfoundry.sh))
