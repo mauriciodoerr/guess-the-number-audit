@@ -10,6 +10,10 @@ A simple guessing game where users pay 1 ether to guess a number. If correct, th
 
 **Status:** 🔴 **CRITICAL VULNERABILITIES** - Do NOT deploy
 
+### Original Contract (Working version)
+
+Since the original contract uses old 0.4.21 Solidity version, in order to make it easier to understand and audit, the same has to be upgraded to 0.8.30 Solidity version. Available at [GuessTheNumberWorking.sol](GuessTheNumberWorking.sol)
+
 ### Secure Version (GuessTheNumberV2.sol)
 
 A fully secured implementation that fixes all critical, medium, and low severity issues.
